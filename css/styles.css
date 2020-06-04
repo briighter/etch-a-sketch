@@ -1,10 +1,45 @@
 #red-case {
     background-color: red;
+    border-radius: .5%;
+    margin: auto;
+    max-width: 98%;
+    height: 50em;
 }
 
+#case-header-container {
+    display: flex;
+    background-color: black;
+    color: gold;
+    margin: 0 auto;
+    width: 50%;
+    height: 10%;
+}
+
+#case-header-container > h1 {
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    top: 15%;
+}
+
+#case-title-left {
+}
+
+#case-title {
+}
+
+#case-title-right {
+}
+
+#screen {
+    background-color: aqua;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+}
 canvas {
     border: 1px solid black;
     background-color: white;
-    width: 560px;
-    height: 360px;
+    width: 100%;
+    height: 100%;
   }

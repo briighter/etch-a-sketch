@@ -3,7 +3,7 @@ let isDrawing = false;
 let x = 0;
 let y = 0;
 
-const canvas = document.getElementById('#canvas');
+const canvas = document.getElementById('canvas');
 const context = canvas.getContext('2d');
 
 // event.offsetX, event.offsetY gives the (x,y) offset from the edge of the canvas.
