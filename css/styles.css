@@ -11,13 +11,14 @@
     color: gold;
     margin: 0 auto;
     width: 50%;
-    height: 8%;
+    height: 10%;
 }
 
 #case-header-container > h1 {
     padding: 0;
     margin: 0 auto;
-    height: 50%;
+    position: relative;
+    top: 15%;
 }
 
 #case-title-left {
