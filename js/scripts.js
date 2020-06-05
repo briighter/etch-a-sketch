@@ -6,6 +6,9 @@ let y = 0;
 const canvas = document.getElementById('canvas');
 const context = canvas.getContext('2d');
 
+// Get the position of the canvas
+var  canvasBounds = canvas.getBoundingClientRect();
+
 // event.offsetX, event.offsetY gives the (x,y) offset from the edge of the canvas.
 
 // Add the event listeners for mousedown, mousemove, and mouseup
